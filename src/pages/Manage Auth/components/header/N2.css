@@ -1,0 +1,151 @@
+.main-container {
+  border: 2px solid black;
+}
+/* Styles for screens larger than 1200px (e.g., large desktops) */
+@media screen and (min-width: 1200px) {
+  .toggle-menu-main {
+    display: none;
+  }
+  .main-container {
+    display: flex;
+  }
+  .logo {
+    display: flex;
+    margin-left: 3.2rem;
+    justify-content: start;
+    align-items: center;
+  }
+  .links {
+    flex: 2;
+  }
+  .links ul {
+    display: flex;
+    list-style: none;
+    padding-top: 1.4rem;
+    justify-content: space-between;
+  }
+  .links ul li {
+    display: flex;
+    margin-right: 3rem;
+    margin-left: 2.5rem;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .user-profile {
+    flex: 1;
+    text-align: center;
+    display: flex;
+    margin-right: 3rem;
+    justify-content: end;
+    align-items: center;
+  }
+}
+
+/* laptops */
+@media screen and (min-width: 992px) and (max-width: 1199px) {
+  .toggle-menu-main {
+    display: none;
+  }
+  .main-container {
+    display: flex;
+  }
+  .logo {
+    display: flex;
+    margin-left: 3.2rem;
+    justify-content: start;
+    align-items: center;
+  }
+  .links {
+    flex: 2;
+  }
+  .links ul {
+    display: flex;
+    list-style: none;
+    padding-top: 1.4rem;
+    justify-content: space-between;
+  }
+  .links ul li {
+    display: flex;
+    margin-right: 3rem;
+    margin-left: 1rem;
+    justify-content: end;
+    align-items: center;
+  }
+  .user-profile {
+    flex: 1;
+    text-align: center;
+    display: flex;
+    margin-right: 3rem;
+    justify-content: end;
+    align-items: center;
+  }
+}
+
+/* tablets */
+@media screen and (min-width: 768px) and (max-width: 991px) {
+  .toggle-menu-main {
+    display: none;
+  }
+  .main-container {
+    display: flex;
+  }
+  .logo {
+    display: flex;
+    margin-left: 0.2rem;
+    justify-content: start;
+    align-items: center;
+  }
+  .links ul {
+    display: flex;
+    list-style: none;
+    padding-top: 1.4rem;
+    /* justify-content: space-between; */
+  }
+  .links ul li {
+    display: flex;
+    margin-right: 2.5rem;
+    /* margin-left: 1rem; */
+    justify-content: space-between;
+    align-items: center;
+  }
+  .user-profile {
+    /* flex: 1; */
+    text-align: center;
+    display: flex;
+    margin-right: 3rem;
+    justify-content: end;
+    align-items: center;
+  }
+}
+/*  mobile devices*/
+@media screen and (max-width: 767px) {
+  .toggle-menu-main {
+    position: absolute;
+    right: 0;
+    margin-top: 1.1rem;
+    margin-right: 2rem;
+  }
+  .main-container {
+    display: flex;
+  }
+  .logo {
+    display: flex;
+    margin-left: 3.2rem;
+    justify-content: start;
+    align-items: center;
+  }
+  .links {
+    display: none;
+  }
+  .user-profile {
+    display: none;
+  }
+  .links-toggle ul {
+    list-style: none;
+  }
+  .user-profile-toggle {
+    display: flex;
+    justify-content: center;
+    padding-left: 2rem;
+  }
+}

@@ -1,0 +1,88 @@
+.cars-design {
+  border-radius: 20px;
+  border: 1px solid rgba(0, 0, 0, 0.7);
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.5);
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
+  width: 14rem;
+  height: 20rem;
+}
+.card-title {
+  color: #000;
+  font-family: Open Sans;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  margin-bottom: 1rem;
+}
+.card-text {
+  display: flex;
+  justify-content: center;
+  color: #004aad;
+  font-family: Open Sans;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+.button-aligment {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.button-individual {
+  border-radius: 20px;
+  background: #000;
+  margin-left: 2rem;
+  margin-right: 2rem;
+}
+.button-individual-1 {
+  background-color: #fff;
+  border-radius: none;
+  color: #004aad;
+  font-family: Open Sans;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  margin-left: 2rem;
+  margin-right: 2rem;
+}
+/* Styles for screens larger than 1200px (e.g., large desktops) */
+@media screen and (min-width: 1200px) {
+}
+
+/* laptops */
+@media screen and (min-width: 992px) and (max-width: 1199px) {
+}
+
+/* tablets */
+@media screen and (min-width: 768px) and (max-width: 991px) {
+}
+/*  mobile devices*/
+@media screen and (max-width: 767px) {
+  .cars-design {
+    width: 25rem;
+    height: 24rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    /* margin-inline-start: 6.5rem; */
+    /* margin-inline-end: 3rem; */
+  }
+  .card-title {
+    margin-bottom: 0.2rem;
+  }
+
+  .button-aligment {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .button-individual {
+    border-radius: 20px;
+    background: #000;
+    margin-left: 1rem;
+    margin-right: 1rem;
+  }
+}

@@ -1,0 +1,163 @@
+.main {
+  display: flex;
+  align-items: center;
+  padding-top: 0.7rem;
+}
+.logo {
+  flex: 1;
+  padding-left: 2.6rem;
+  cursor: pointer;
+}
+.links {
+  flex: 2;
+  cursor: pointer;
+}
+.search {
+  display: flex;
+  cursor: pointer;
+  justify-content: space-around;
+  flex: 1;
+  cursor: pointer;
+  margin-left: 4rem;
+  margin-right: 3.3rem;
+}
+.navbar-menu {
+  margin-left: 1rem;
+  position: relative;
+}
+.links ul {
+  display: flex;
+  justify-content: space-around;
+  list-style-type: none;
+}
+/* Styles for screens smaller than 600px */
+@media screen and (max-width: 599px) {
+  .links {
+    display: none;
+  }
+  .search {
+    display: none;
+  }
+  .search-toggle {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  .search-input input {
+    max-width: 90%;
+    margin-top: 0.5rem;
+    margin-bottom: 0.7rem;
+  }
+  .navbar-menu {
+    position: absolute;
+    right: 0;
+    margin-right: 1rem;
+    top: 36px;
+    border-radius: 5px;
+    align-items: flex-end;
+    text-align: start;
+    margin-top: 7rem;
+    border-radius: 5px;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2);
+  }
+  .navbar-menu li {
+    list-style-type: none;
+    padding-right: 2rem;
+  }
+}
+@media screen and (min-width: 600px) and (max-width: 899px) {
+  .navbar-menu {
+    display: none;
+  }
+  .main {
+    display: flex;
+    align-items: center;
+    padding-top: 0.7rem;
+  }
+  .logo {
+    flex: 1;
+    padding-left: 1.4rem;
+    cursor: pointer;
+  }
+  .links {
+    flex: 5;
+    cursor: pointer;
+  }
+  .search input {
+    display: none;
+  }
+  .search {
+    flex: 1;
+  }
+  .links ul {
+    list-style-type: none;
+  }
+  .links ul li {
+    padding-right: 0.5rem;
+  }
+}
+/* Styles for screen between 900px and 1030px */
+@media screen and (min-width: 900px) and (max-width: 1030px) {
+  .navbar-menu {
+    display: none;
+  }
+  .main {
+    display: flex;
+    align-items: center;
+    padding-top: 0.7rem;
+  }
+  .logo {
+    flex: 1;
+    padding-left: 2.6rem;
+    cursor: pointer;
+  }
+  .links {
+    flex: 9;
+    cursor: pointer;
+  }
+  .search input {
+    /* display: none; */
+    max-width: 40%;
+  }
+  .search {
+    flex: 1;
+  }
+  .links ul {
+    list-style-type: none;
+  }
+  .links ul li {
+    padding-right: 0.5rem;
+  }
+}
+/* Styles for screens larger than 1030px */
+@media screen and (min-width: 1031px) {
+  .navbar-menu {
+    display: none;
+  }
+  .main {
+    display: flex;
+    align-items: center;
+    padding-top: 0.7rem;
+  }
+  .logo {
+    flex: 1;
+    padding-left: 2rem;
+    cursor: pointer;
+  }
+  .links {
+    flex: 6;
+    cursor: pointer;
+  }
+
+  .search {
+    display: flex;
+    justify-content: space-between;
+    flex: 3;
+  }
+  .links ul {
+    list-style-type: none;
+  }
+  .links ul li {
+    padding-right: 0.6rem;
+  }
+}

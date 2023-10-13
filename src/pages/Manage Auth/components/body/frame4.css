@@ -1,0 +1,132 @@
+.main-conatiner {
+  max-width: 95%;
+  margin: 0 auto;
+  margin-top: 2rem;
+}
+.first-container {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #000;
+  font-family: Open Sans;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+.last-part {
+  display: flex;
+  flex-direction: row;
+}
+.second-container {
+  flex: 1;
+  margin-right: 3rem;
+  margin-top: 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.second-container img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.third-container {
+  flex: 1;
+  margin-top: 2rem;
+  margin-right: 3rem;
+  color: #000;
+  font-family: Open Sans;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.5rem;
+}
+p {
+  text-align: justify;
+}
+/* Styles for screens larger than 1200px (e.g., large desktops) */
+@media screen and (min-width: 1200px) {
+}
+
+/* laptops */
+@media screen and (min-width: 992px) and (max-width: 1199px) {
+  .second-container {
+    flex: 2;
+    margin-right: 3rem;
+    margin-top: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .second-container img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  .third-container {
+    flex: 1;
+    margin-top: 2rem;
+    margin-right: 3rem;
+    color: #000;
+    font-family: Open Sans;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.5rem;
+  }
+  p {
+    text-align: justify;
+  }
+}
+
+/* tablets */
+@media screen and (min-width: 768px) and (max-width: 991px) {
+  .last-part {
+    display: flex;
+    flex-direction: column;
+  }
+  .second-container {
+    flex: 1;
+    margin-right: 3rem;
+    margin-top: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .second-container img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  .third-container {
+    flex: 1;
+    margin-top: 2rem;
+    margin-right: 3rem;
+    color: #000;
+    font-family: Open Sans;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.5rem;
+  }
+  p {
+    text-align: justify;
+  }
+}
+/*  mobile devices*/
+@media screen and (max-width: 767px) {
+  .last-part {
+    display: flex;
+    flex-direction: column;
+  }
+  .second-container {
+    margin-right: 2rem;
+    margin-left: 3rem;
+  }
+  .third-container {
+    margin-right: 2rem;
+    margin-left: 3rem;
+  }
+}

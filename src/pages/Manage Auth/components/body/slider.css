@@ -1,0 +1,226 @@
+/* Styles for screens larger than 1200px (e.g., large desktops) */
+@media screen and (min-width: 1200px) {
+  .main-cntainer {
+    max-width: 95%;
+    border-radius: 20px;
+    background: #d9d9d9;
+    margin: 0 auto;
+    margin-top: 2rem;
+    padding-bottom: 2rem;
+    display: flex;
+  }
+  .first-half {
+    flex: 30%;
+  }
+  .heading {
+    display: flex;
+    justify-content: center;
+    color: #000;
+    font-family: Inria Sans;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    padding-top: 1rem;
+    margin-bottom: 1rem;
+  }
+  .sub-heading {
+    color: #000;
+    font-family: Inria Sans;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-left: 6.6rem;
+    margin-bottom: 0.5rem;
+    margin-top: 0.5rem;
+  }
+  .text {
+    color: #000;
+    font-family: Inria Sans;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    margin-left: 5.2rem;
+  }
+  .second-half {
+    max-width: 90%;
+    margin-top: 4rem;
+    margin-right: 2rem;
+  }
+}
+
+/* laptops */
+@media screen and (min-width: 992px) and (max-width: 1199px) {
+  .main-cntainer {
+    max-width: 95%;
+    border-radius: 20px;
+    background: #d9d9d9;
+    margin: 0 auto;
+    margin-top: 2rem;
+    padding-bottom: 2rem;
+    display: flex;
+  }
+  .first-half {
+    flex: 30%;
+  }
+  .heading {
+    display: flex;
+    justify-content: center;
+    color: #000;
+    font-family: Inria Sans;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    padding-top: 1rem;
+    margin-bottom: 0.7rem;
+  }
+  .sub-heading {
+    color: #000;
+    font-family: Inria Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-left: 6rem;
+    margin-bottom: 0.5rem;
+    margin-top: 0.5rem;
+  }
+  .text {
+    color: #000;
+    font-family: Inria Sans;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    margin-left: 4rem;
+  }
+  .second-half {
+    max-width: 90%;
+    margin-top: 4rem;
+    margin-right: 2rem;
+  }
+}
+
+/* tablets */
+@media screen and (min-width: 768px) and (max-width: 991px) {
+  .main-cntainer {
+    max-width: 95%;
+    border-radius: 20px;
+    background: #d9d9d9;
+    margin: 0 auto;
+    margin-top: 2rem;
+    padding-bottom: 2rem;
+  }
+  .first-half {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .heading {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    margin-top: 1.5rem;
+    margin-bottom: 1rem;
+    color: #000;
+    font-family: Inria Sans;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+  }
+  .day {
+    width: 33%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .sub-heading {
+    color: #000;
+    font-family: Inria Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+  }
+  .text {
+    color: #000;
+    font-family: Inria Sans;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+  }
+  .second-half {
+    max-width: 100%;
+    margin-top: 2rem;
+    margin-right: 2rem;
+    margin-left: 2rem;
+  }
+}
+/*  mobile devices*/
+@media screen and (max-width: 767px) {
+  .main-cntainer {
+    max-width: 95%;
+    border-radius: 20px;
+    background: #d9d9d9;
+    margin: 0 auto;
+    margin-top: 1rem;
+    padding-bottom: 1rem;
+  }
+  .first-half {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .heading {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    color: #000;
+    font-family: Inria Sans;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+  }
+  .day {
+    width: 49%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .sub-heading {
+    color: #000;
+    font-family: Inria Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+  }
+  .text {
+    color: #000;
+    font-family: Inria Sans;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+  }
+  .second-half {
+    max-width: 100%;
+    margin-top: 1rem;
+    margin-right: 2rem;
+    margin-left: 2rem;
+  }
+}

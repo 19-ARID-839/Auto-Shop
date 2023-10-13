@@ -1,0 +1,105 @@
+.top-rectangle {
+  display: flex;
+  align-items: center;
+  background: #004aad;
+}
+/* .main {
+  max-width: 95%;
+} */
+.first-div {
+  flex: 2;
+  padding-left: 4rem;
+}
+.second-div {
+  flex: 2;
+  text-align: right;
+}
+.third-div {
+  flex: 1;
+  text-align: right;
+  padding-right: 4rem;
+}
+.first-div,
+.second-div,
+.third-div p {
+  color: #fff;
+  font-family: Inter;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin: 0;
+}
+/* Styles for screens larger than 1200px (e.g., large desktops) */
+@media screen and (min-width: 1200px) {
+  .first-div {
+    text-align-last: center;
+  }
+  .first-div,
+  .second-div,
+  .third-div p {
+    padding-top: 1rem;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+  }
+  .third-div p {
+    margin-bottom: 1rem;
+  }
+}
+
+/* laptops */
+@media screen and (min-width: 992px) and (max-width: 1199px) {
+  .first-div {
+    text-align-last: center;
+  }
+  .first-div,
+  .second-div {
+    padding-top: 1rem;
+    padding-bottom: 0.5rem;
+  }
+}
+
+/* tablets */
+@media screen and (min-width: 768px) and (max-width: 991px) {
+  .first-div {
+    text-align-last: center;
+  }
+  .first-div,
+  .second-div {
+    font-size: 14;
+    font-weight: 500;
+    padding-top: 1rem;
+    padding-bottom: 0.5rem;
+  }
+  .third-div p {
+    font-size: 14;
+    font-weight: 500;
+  }
+}
+/*  mobile devices*/
+@media screen and (max-width: 767px) {
+  .top-rectangle {
+    flex-direction: column;
+  }
+  .first-div,
+  .second-div,
+  .third-div p {
+    line-height: 1rem;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    padding-right: 2rem;
+  }
+  .first-div {
+    text-align-last: center;
+    margin-top: 1rem;
+  }
+  .second-div {
+    padding-left: 3.5rem;
+  }
+  .third-div {
+    padding-left: 8rem;
+    margin-bottom: 1rem;
+  }
+}

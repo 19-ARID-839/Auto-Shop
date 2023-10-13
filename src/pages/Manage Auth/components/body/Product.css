@@ -1,0 +1,21 @@
+.cards-container {
+  margin: 0 auto;
+  max-width: 95%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+@media screen and (max-width: 767px) {
+  .cards-container {
+    justify-content: space-around;
+  }
+}
+hr {
+  width: 100%;
+  border: 1px solid;
+}
+.upper-title {
+  display: flex;
+  flex-direction: column;
+}
