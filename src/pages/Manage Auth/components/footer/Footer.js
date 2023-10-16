@@ -10,7 +10,7 @@ import {
 
 const Footer = () => {
   return (
-    <div className="foo">
+    <div className="foo" id="appointments">
       <Box>
         <h1
           style={{

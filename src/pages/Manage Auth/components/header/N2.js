@@ -13,22 +13,22 @@ const N2 = () => {
       <div className="links">
         <ul>
           <li>
-            <a>Home</a>
+            <a href="#home">Home</a>
           </li>
           <li>
-            <a>About</a>
+            <a href="#about">About</a>
           </li>
           <li>
-            <a>Product</a>
+            <a href="#products">Product</a>
           </li>
           <li>
-            <a>Parts</a>
+            <a href="products">Parts</a>
           </li>
           <li>
-            <a>Appointmenst</a>
+            <a href="#appointments">Appointmenst</a>
           </li>
           <li>
-            <a>Contact</a>
+            <a href="#contact">Contact</a>
           </li>
         </ul>
       </div>
@@ -54,22 +54,22 @@ const N2 = () => {
           <div className="links-toggle">
             <ul>
               <li>
-                <a>Home</a>
+                <a href="#home">Home</a>
               </li>
               <li>
-                <a>About</a>
+                <a href="#about">About</a>
               </li>
               <li>
-                <a>Hot Product</a>
+                <a href="#products">Product</a>
               </li>
               <li>
-                <a>Spare Parts</a>
+                <a href="products">Parts</a>
               </li>
               <li>
-                <a>Appointmenst</a>
+                <a href="#appointments">Appointmenst</a>
               </li>
               <li>
-                <a>Contact Us</a>
+                <a href="#contact">Contact</a>
               </li>
             </ul>
             <div className="user-profile-toggle">

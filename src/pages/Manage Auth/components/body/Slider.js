@@ -1,10 +1,10 @@
 import React from "react";
 import "./slider.css";
 import car1 from "../../../../assets/car1.png";
-import logo from "../../../../assets/logo.png";
+
 const Slider = () => {
   return (
-    <div className="main-cntainer">
+    <div className="main-cntainer" id="contact">
       <div className="first-half">
         <div className="heading">Open Hours</div>
         <div class="day">

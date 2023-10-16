@@ -3,7 +3,7 @@ import "./frame4.css";
 import car4 from "../../../../assets/car4.png";
 const Frame4 = () => {
   return (
-    <div className="main-conatiner">
+    <div className="main-conatiner" id="about">
       <div className="first-container">About Us</div>
       <div className="last-part">
         <div className="second-container">

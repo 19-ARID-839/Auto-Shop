@@ -6,16 +6,23 @@
   justify-content: space-between;
   flex-wrap: wrap;
 }
-@media screen and (max-width: 767px) {
-  .cards-container {
-    justify-content: space-around;
-  }
-}
 hr {
   width: 100%;
-  border: 1px solid;
+  border: 1px solid #000; /* Add a color for the border (e.g., black) */
 }
-.upper-title {
-  display: flex;
-  flex-direction: column;
+@media screen and (max-width: 767px), (max-width: 607) {
+}
+@media screen and (max-width: 767px) {
+  .cards-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  hr {
+    width: 100%;
+    border: 1px solid #000; /* Add a color for the border (e.g., black) */
+  }
+
+  .upper-title {
+  }
 }

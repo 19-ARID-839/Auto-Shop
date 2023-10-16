@@ -51,6 +51,12 @@
 }
 /* Styles for screens larger than 1200px (e.g., large desktops) */
 @media screen and (min-width: 1200px) {
+  .cars-design {
+    width: 22rem;
+    height: 20rem;
+    margin-top: 1rem;
+    margin-bottom: 1.3rem;
+  }
 }
 
 /* laptops */
@@ -60,20 +66,25 @@
 /* tablets */
 @media screen and (min-width: 768px) and (max-width: 991px) {
 }
-/*  mobile devices*/
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 767px), (max-width: 607) {
   .cars-design {
-    width: 25rem;
-    height: 24rem;
+    width: 24rem;
+    height: 22rem;
     margin-top: 1rem;
     margin-bottom: 1rem;
-    /* margin-inline-start: 6.5rem; */
-    /* margin-inline-end: 3rem; */
+  }
+}
+/*  mobile devices*/
+@media screen and (max-width: 606px) {
+  .cars-design {
+    width: 18rem;
+    height: 22rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
   }
   .card-title {
     margin-bottom: 0.2rem;
   }
-
   .button-aligment {
     display: flex;
     justify-content: space-between;
